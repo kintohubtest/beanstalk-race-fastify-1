@@ -1,6 +1,6 @@
 'use strict'
 
-const { test } = require('node:test')
+const { describe, test } = require('node:test')
 const Joi = require('joi')
 const Fastify = require('..')
 
