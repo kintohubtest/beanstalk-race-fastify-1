@@ -1,6 +1,7 @@
 'use strict'
 
 const stream = require('node:stream')
+const { ReadableStream } = require('node:stream/web')
 const split = require('split2')
 const { test } = require('node:test')
 const Fastify = require('..')
